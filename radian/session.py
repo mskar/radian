@@ -77,7 +77,7 @@ def apply_settings(session, settings):
         if sys.version_info[0] == 3:
             app = get_app()
             app.ttimeoutlen = 0.01
-            app.timeoutlen = 0.5
+            app.timeoutlen = 0.25
 
         return self._input_mode
 
