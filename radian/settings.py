@@ -42,6 +42,7 @@ class RadianSettings(object):
         self._load_setting("ttimeoutlen", 0.01, float)
         self._load_setting("timeoutlen", 0.5, float)
         self._load_setting("tab_apply_completion", True, bool)
+        self._load_setting("auto_complete_commit_on_tab", False, bool)
         self._load_setting("editing_mode", "emacs")
         self._load_setting("color_scheme", "native")
         self._load_setting("auto_match", True, bool)
